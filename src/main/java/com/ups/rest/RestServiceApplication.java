@@ -14,7 +14,7 @@ public class RestServiceApplication {
 	@RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello World V2!";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(RestServiceApplication.class, args);
